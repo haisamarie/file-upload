@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "markuplint": "markuplint \"./src/**/*.{jsx,tsx}\"",
     "format": "prettier --write ."
   },
   "dependencies": {
@@ -17,6 +18,8 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@markuplint/jsx-parser": "^3.10.0",
+    "@markuplint/react-spec": "^3.11.0",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -30,6 +33,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
+    "markuplint": "^3.13.0",
     "postcss": "latest",
     "prettier": "^3.0.3",
     "tailwindcss": "latest",
