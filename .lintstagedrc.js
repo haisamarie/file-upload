@@ -9,7 +9,7 @@ module.exports = {
   '*.{ts,tsx}': [
     () => 'tsc --incremental false --noEmit',
     buildEslintCommand,
-    "prettier --write"
+    'prettier --write',
+    'markuplint "./src/**/*.{jsx,tsx}"',
   ],
-  
 }
