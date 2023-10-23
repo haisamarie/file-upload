@@ -1,9 +1,5 @@
 export const Footer = () => {
-  return (
-    <footer>
-      <p>ここはfooter</p>
-    </footer>
-  )
+  return <footer></footer>
 }
 
 export default Footer
